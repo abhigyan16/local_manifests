@@ -2,13 +2,13 @@
 <manifest>
 
 	<remote  name="ZunayedDihan"
-		fetch="https://github.com/Hotorou" />
+		fetch="https://github.com/ZunayedDihan" />
 	<remote  name="lupe"
-		fetch="https://github.com/lupesoltec" />
+		fetch="https://github.com/ItsVixano" />
 	<remote  name="acras"
 		fetch="https://github.com/acras01" />
-	<project path="device/xiaomi/daisy" name="device_xiaomi_daisy" remote="ZunayedDihan" revision="aicp" clone-depth="1" />
-	<project path="kernel/xiaomi/msm8953" name="android_kernel_xiaomi_daisy" remote="acras" revision="arrow-11.0" clone-depth="1" />
-	<project path="vendor/MiuiCamera" name="vendor_MiuiCamera" remote="lupe" revision="daisy" clone-depth="1" />
-	<project path="vendor/xiaomi/daisy" name="vendor_xiaomi_daisy" remote="ZunayedDihan" revision="lineage-18.1" clone-depth="1" />
+	<project path="device/xiaomi/daisy" name="device_xiaomi_daisy" remote="ZunayedDihan" revision="11" clone-depth="1" />
+	<project path="kernel/xiaomi/msm8953" name="android_kernel_xiaomi_daisy" remote="lupe" revision="lineage-18.1" clone-depth="1" />
+	<project path="vendor/custom/prebuilts" name="vendor_custom_prebuilts" remote="acras" revision="master" clone-depth="1" />
+	<project path="vendor/xiaomi/daisy" name="vendor_xiaomi_daisy" remote="ZunayedDihan" revision="wip" clone-depth="1" />
 </manifest>
