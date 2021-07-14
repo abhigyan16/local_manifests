@@ -9,7 +9,7 @@
 		fetch="https://github.com/ItsVixano" />
 	<remote  name="lupe01"
 		fetch="https://github.com/lupesoltec" />
-	<project path="device/xiaomi/daisy" name="device_xiaomi_daisy" remote="ZunayedDihan" revision="11" clone-depth="1" />
+	<project path="device/xiaomi/daisy" name="device_xiaomi_daisy" remote="Hotorou" revision="11" clone-depth="1" />
 	<project path="kernel/xiaomi/msm8953" name="android_kernel_xiaomi_daisy" remote="lupe" revision="lineage-18.1" clone-depth="1" />
 	<project path="vendor/MiuiCamera" name="vendor_MiuiCamera" remote="lupe01" revision="daisy" clone-depth="1" />
 	<project path="vendor/xiaomi/daisy" name="vendor_xiaomi_daisy_work" remote="ZunayedDihan" revision="wip" clone-depth="1" />
