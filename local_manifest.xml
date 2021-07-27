@@ -9,15 +9,15 @@
 		fetch="https://github.com/geopd" />
 	<remote  name="acras"
 		fetch="https://github.com/acras01" />
-	<remote  name="derp"
+	<remote  name="66"
 		fetch="https://github.com/DerpFest-Devices" />
 	<remote  name="mvaisakh"
 		fetch="https://github.com/mvaisakh" />
 
-	<project path="device/xiaomi/daisy" name="device_xiaomi_daisy" remote="derp" revision="11" clone-depth="1" />
+	<project path="device/xiaomi/daisy" name="device_xiaomi_daisy" remote="66" revision="11" clone-depth="1" />
 	<project path="kernel/xiaomi/msm8953" name="Mystique_sakura" remote="geopd" revision="4.9-R" clone-depth="1" />
 	<project path="vendor/custom/prebuilts" name="vendor_custom_prebuilts" remote="acras" revision="master" clone-depth="1" />
-	<project path="vendor/xiaomi/daisy" name="vendor_xiaomi_daisy" remote="derp" revision="11" clone-depth="1" />
+	<project path="vendor/xiaomi/daisy" name="vendor_xiaomi_daisy" remote="66" revision="11" clone-depth="1" />
     <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-elf" name="gcc-arm64" remote="mvaisakh" revision="gcc-master" clone-depth="1" />
 
 </manifest>
