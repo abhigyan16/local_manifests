@@ -21,16 +21,14 @@
                 sync-j="4"
                 revision="refs/heads/11.0" />
 
-	<project path="device/xiaomi/daisy" name="device_xiaomi_daisy" remote="Hotorou" revision="aicp" clone-depth="1" />
+	<project path="device/xiaomi/daisy" name="device_xiaomi_daisy" remote="Hotorou" revision="bootleg" clone-depth="1" />
 	<project path="vendor/custom/prebuilts" name="vendor_custom_prebuilts" remote="acras" revision="master" clone-depth="1" />
 	<project path="vendor/xiaomi/daisy" name="derp_vendor" remote="Hotorou" revision="wip" clone-depth="1" />
-        <project path="kernel/xiaomi/msm8953" name="Mystique_sakura" remote="geopd" revision="4.9-R" clone-depth="1" />
-        <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-elf" name="gcc-arm64" remote="mvaisakh" revision="gcc-master" clone-depth="1" />
-        <remove-project name="LineageOS/android_hardware_qcom_media"/>
-        <remove-project name="LineageOS/android_hardware_qcom_display"/>
-        <project path="hardware/qcom-caf/msm8996/display" name="crdroidandroid/android_hardware_qcom_display" remote="crdroid" revision="11.0-caf-msm8996" />
-        <project path="hardware/qcom-caf/msm8996/media" name="crdroidandroid/android_hardware_qcom_media" remote="crdroid" revision="11.0-caf-msm8996" />
-        <remove-project name="AICP/packages_apps_Updater" />
-        <project path="packages/apps/Updater" name="packages_apps_Updater" remote="Hotorou" revision="r11.1" clone-depth="1" />
+    <project path="kernel/xiaomi/msm8953" name="Mystique_sakura" remote="geopd" revision="4.9-R" clone-depth="1" />
+    <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-elf" name="gcc-arm64" remote="mvaisakh" revision="gcc-master" clone-depth="1" />
+    <remove-project name="LineageOS/android_hardware_qcom_media"/>
+    <remove-project name="LineageOS/android_hardware_qcom_display"/>
+    <project path="hardware/qcom-caf/msm8996/display" name="crdroidandroid/android_hardware_qcom_display" remote="crdroid" revision="11.0-caf-msm8996" />
+    <project path="hardware/qcom-caf/msm8996/media" name="crdroidandroid/android_hardware_qcom_media" remote="crdroid" revision="11.0-caf-msm8996" />
 
 </manifest>
