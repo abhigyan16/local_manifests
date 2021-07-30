@@ -28,8 +28,10 @@
         <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-elf" name="gcc-arm64" remote="mvaisakh" revision="gcc-master" clone-depth="1" />
         <remove-project name="LineageOS/android_hardware_qcom_media"/>
         <remove-project name="LineageOS/android_hardware_qcom_display"/>
+	<remove-project name="LineageOS/android_hardware_qcom_audio"/>
         <project path="hardware/qcom-caf/msm8996/display" name="crdroidandroid/android_hardware_qcom_display" remote="crdroid" revision="11.0-caf-msm8996" />
         <project path="hardware/qcom-caf/msm8996/media" name="crdroidandroid/android_hardware_qcom_media" remote="crdroid" revision="11.0-caf-msm8996" />
+        <project path="hardware/qcom-caf/msm8996/audio" name="crdroidandroid/android_hardware_qcom_audio" remote="crdroid" revision="11.0-caf-msm8996" />
         <remove-project name="AICP/packages_apps_Updater" />
         <project path="packages/apps/Updater" name="packages_apps_Updater" remote="Hotorou" revision="r11.1" clone-depth="1" />
 
