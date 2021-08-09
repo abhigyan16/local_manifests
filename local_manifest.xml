@@ -18,6 +18,5 @@
 	<project path="kernel/xiaomi/msm8953" name="kernel_xiaomi_panda" remote="TogoFire" revision="panda" clone-depth="1" />
 	<project path="vendor/custom/prebuilts" name="vendor_custom_prebuilts" remote="ZunayedDihan" revision="master" clone-depth="1" />
 	<project path="vendor/xiaomi/daisy" name="vendor_xiaomi_daisy" remote="66" revision="11" clone-depth="1" />
-        <project path="prebuilts/clang/host/linux-x86/clang-proton" name="proton-clang" remote="kdrag0n" revision="master" clone-depth="1" />
 
 </manifest>
