@@ -15,11 +15,22 @@
 		fetch="https://github.com/DerpFest-Devices" />
 	<remote  name="kdrag0n"
 		fetch="https://github.com/kdrag0n" />
+	<remote  name="crdroid"
+                fetch="https://github.com/"
+                sync-c="true"
+                sync-j="4"
+                revision="refs/heads/11.0" />
 
 	<project path="device/xiaomi/daisy" name="device_xiaomi_daisy" remote="ZunayedDihan" revision="colt" clone-depth="1" />
 	<project path="kernel/xiaomi/msm8953" name="kernel_xiaomi_panda" remote="TogoFire" revision="panda" clone-depth="1" />
 	<project path="vendor/custom/prebuilts" name="vendor_custom_prebuilts" remote="ZunayedDihan" revision="master" clone-depth="1" />
 	<project path="vendor/xiaomi/daisy" name="vendor_xiaomi_daisy" remote="66" revision="11" clone-depth="1" />
-		<project path="prebuilts/clang/host/linux-x86/clang-proton" name="proton-clang" remote="kdrag0n" revision="master" clone-depth="1" />
+	<project path="prebuilts/clang/host/linux-x86/clang-proton" name="proton-clang" remote="kdrag0n" revision="master" clone-depth="1" />
+        <remove-project name="android_hardware_qcom_media"/>
+        <remove-project name="android_hardware_qcom_display"/>
+	    <remove-project name="android_hardware_qcom_audio"/>
+        <project path="hardware/qcom-caf/msm8996/display" name="crdroidandroid/android_hardware_qcom_display" remote="crdroid" revision="11.0-caf-msm8996" />
+        <project path="hardware/qcom-caf/msm8996/media" name="crdroidandroid/android_hardware_qcom_media" remote="crdroid" revision="11.0-caf-msm8996" />
+        <project path="hardware/qcom-caf/msm8996/audio" name="crdroidandroid/android_hardware_qcom_audio" remote="crdroid" revision="11.0-caf-msm8996" />
 
 </manifest>
