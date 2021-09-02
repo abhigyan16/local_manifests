@@ -5,18 +5,19 @@
 		fetch="https://github.com/ZunayedDihan" />
 	<remote  name="Hotorou"
 		fetch="https://github.com/hotorou" />
-	<remote  name="geopd"
+	<remote  name="link"
 		fetch="https://github.com/LinkBoi00-Development" />
-	<remote  name="TogoFire"
-		fetch="https://github.com/TogoFire" />
 	<remote  name="66"
 		fetch="https://github.com/DerpFest-Devices" />
-	<remote  name="kdrag0n"
-		fetch="https://github.com/kdrag0n" />
+	<remote  name="mvaisakh"
+		fetch="https://github.com/mvaisakh" />
 
 	<project path="device/xiaomi/daisy" name="device_xiaomi_daisy" remote="66" revision="11" clone-depth="1" />
 	<project path="kernel/xiaomi/msm8953" name="kernel_xiaomi_panda" remote="TogoFire" revision="panda" clone-depth="1" />
 	<project path="vendor/custom/prebuilts" name="vendor_custom_prebuilts" remote="ZunayedDihan" revision="master" clone-depth="1" />
 	<project path="vendor/xiaomi/daisy" name="vendor_xiaomi_daisy" remote="66" revision="11" clone-depth="1" />
+	<remove-project name="AOSPA/android_prebuilts_gcc_linux-x86_aarch64_aarch64-elf"/>
+        <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-elf" name="gcc-arm64" remote="mvaisakh" revision="gcc-master" clone-depth="1" />
+        <project path="prebuilts/gcc/linux-x86/arm/arm-eabi" name="gcc-arm" remote="mvaisakh" revision="gcc-master" clone-depth="1" />
 
 </manifest>
