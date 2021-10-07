@@ -22,6 +22,7 @@
         <project path="prebuilts/gcc/linux-x86/arm/arm-eabi" name="gcc-arm" remote="mvaisakh" revision="gcc-master" clone-depth="1" />
 	<remove-project name="frameworks_native"/>
 	<project path="frameworks/native" name="frameworks_native" remote="ZunayedDihan" revision="11" clone-depth="1" />
-	
+	<remove-project name="vendor_derp"/>
+	<project path="vendor/derp" name="vendor_derp" remote="ZunayedDihan" revision="11" clone-depth="1" />
 
 </manifest>
