@@ -3,36 +3,8 @@
 
 	<remote  name="ZunayedDihan"
 		fetch="https://github.com/ZunayedDihan" />
-	<remote  name="Hotorou"
-		fetch="https://github.com/hotorou" />
-	<remote  name="lupe"
-		fetch="https://github.com/ItsVixano" />
-	<remote  name="lupe01"
-		fetch="https://github.com/lupesoltec" />
-        <remote  name="geopd"
-		fetch="https://github.com/geopd" />
-	<remote  name="acras"
-		fetch="https://github.com/acras01" />
-        <remote  name="mvaisakh"
-		fetch="https://github.com/mvaisakh" />
-	<remote  name="kdrag0n"
-		fetch="https://github.com/kdrag0n" />
-	<remote  name="TogoFire"
-		fetch="https://github.com/TogoFire" />
-	<remote  name="link"
-		fetch="https://github.com/LinkBoi00-Development" />
-	<remote  name="66"
-		fetch="https://github.com/DerpFest-Devices" />
-    <remote  name="crdroid"
-        fetch="https://github.com/"
-        sync-c="true"
-        sync-j="4"
-        revision="refs/heads/11.0" />
 
-	<project path="device/xiaomi/daisy" name="device_xiaomi_daisy" remote="Hotorou" revision="aicp" clone-depth="1" />
-	<project path="vendor/xiaomi/daisy" name="vendor_xiaomi_daisy" remote="66" revision="11" clone-depth="1" />
-    <remove-project name="AICP/packages_apps_Updater" />
-	<remove-project name="AICP/vendor_aicp" />
-    <project path="packages/apps/Updater" name="packages_apps_Updater" remote="Hotorou" revision="r11.1" clone-depth="1" />
-	<project path="vendor/aicp" name="vendor_aicp" revision="r11.1" remote="ZunayedDihan" clone-depth="1" />
+	<project path="device/xiaomi/daisy" name="device_xiaomi_daisy" remote="ZunayedDihan" revision="11" clone-depth="1" />
+	<project path="vendor/xiaomi/daisy" name="vendor_xiaomi_daisy-1" remote="ZunayedDihan" revision="11" clone-depth="1" />
+	<project path="kernel/xiaomi/msm8953" name="Mystique_sakura" remote="ZunayedDihan" revision="4.9-R" clone-depth="1" />
 </manifest>
