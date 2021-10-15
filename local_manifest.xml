@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-	<remote  name="ZunayedDihan"
-		fetch="https://github.com/ZunayedDihan" />
+	<remote  name="abhigyan16"
+		fetch="https://github.com/abhigyan16" />
 
-	<project path="device/xiaomi/daisy" name="device_xiaomi_daisy" remote="ZunayedDihan" revision="11" clone-depth="1" />
-	<project path="vendor/xiaomi/daisy" name="vendor_xiaomi_daisy-1" remote="ZunayedDihan" revision="11" clone-depth="1" />
-	<project path="kernel/xiaomi/msm8953" name="Mystique_sakura" remote="ZunayedDihan" revision="4.9-R" clone-depth="1" />
+	<project path="device/xiaomi/sakura" name="device_xiaomi_sakura" remote="abhigyan16" revision="11" clone-depth="1" />
+	<project path="vendor/xiaomi/sakura" name="vendor_xiaomi_sakura-1" remote="abhigyan16" revision="11" clone-depth="1" />
+	<project path="kernel/xiaomi/msm8953" name="Mystique_sakura" remote="abhigyan16" revision="4.9-R" clone-depth="1" />
 </manifest>
