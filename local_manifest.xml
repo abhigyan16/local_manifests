@@ -1,10 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-	<remote  name="abhigyan16"
-		fetch="https://github.com/abhigyan16" />
+        <!-- Private remote -->
+	<remote  name="git"
+           fetch="https://github.com/"
+           clone-depth="1" />
 
-	<project path="device/xiaomi/sakura" name="device_xiaomi_sakura" remote="abhigyan16" revision="11" clone-depth="1" />
-	<project path="vendor/xiaomi/sakura" name="vendor_xiaomi_sakura-1" remote="abhigyan16" revision="11" clone-depth="1" />
-	<project path="kernel/xiaomi/msm8953" name="Mystique_sakura" remote="abhigyan16" revision="4.9-R" clone-depth="1" />
+  <!-- DT,VT& KT -->
+  <project path="device/xiaomi/sakura" name="abhigyan16/device_xiaomi_sakura" remote="git" revision="dot11" />
+  <project path="vendor/xiaomi" name="geopd/vendor_xiaomi_sakura" remote="git" revision="lineage-18.1" />
+  <project path="kernel/xiaomi/msm8953" name="geopd/Mystique_sakura" remote="git" revision="4.9-R" />
+
+  <!-- Custom -->  
+  <project path="vendor/custom/prebuilts" name="geopd/vendor_custom_prebuilts" remote="git" revision="master" />
+
+  <!-- HALs -->
+  <!-- Remove existing HALs-->
+  <remove-project name="android_hardware_qcom_display" path="hardware/qcom-caf/msm8996/display" />
+  <remove-project name="android_hardware_qcom_audio"  path="hardware/qcom-caf/msm8996/audio"/>
+  <remove-project name="android_hardware_qcom_media" path="hardware/qcom-caf/msm8996/media" />
+  <!-- Sync new HALs-->
+  <project path="hardware/qcom-caf/msm8996/audio" name="DotOS/android_hardware_qcom_audio" remote="git" revision="dot11-caf-msm8996" />
+  <project path="hardware/qcom-caf/msm8996/display" name="DotOS/android_hardware_qcom_display" remote="git" revision="dot11-caf-msm8996" />
+  <project path="hardware/qcom-caf/msm8996/media" name="DotOS/android_hardware_qcom_media" remote="git" revision="dot11-caf-msm8996" />
+
+  <!-- gcc -->
+  <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-elf" name="mvaisakh/gcc-arm64" remote="git" revision="gcc-master" />
 </manifest>
